@@ -24,16 +24,16 @@ public class Main {
         do {
             System.out.println("\n===== MENU =====");
             System.out.println("1. Thêm học sinh");
-            System.out.println("2. Hiển thị danh sách");
-            System.out.println("3. Xóa học sinh");
-            System.out.println("4. Tìm học sinh theo ID");
-            System.out.println("5. ĐTB cao nhất");
-            System.out.println("6. ĐTB thấp nhất");
-            System.out.println("7. Sắp xếp theo tên");
-            System.out.println("8. Cập nhật học sinh");
-            System.out.println("9. DS > 24 điểm");
-            System.out.println("10. DS < 18 điểm");
-            System.out.println("11. DS học sinh giỏi");
+            System.out.println("2. Hiển thị danh sách học sinh");
+            System.out.println("3. Xóa học sinh dựa vào id");
+            System.out.println("4. Tìm kiếm học sinh dựa vào id");
+            System.out.println("5. Tìm học sinh có điểm trung bình cao nhất");
+            System.out.println("6. Tìm học sinh có điểm trung bình thấp nhất");
+            System.out.println("7. Sắp xếp học sinh theo tên");
+            System.out.println("8. Cập nhật thông tin học sinh dựa vào id");
+            System.out.println("9. Hiển thị ra học sinh có tổng điểm 3 môn trên 24đ");
+            System.out.println("10. Hiển thị ra học sinh có tổng điểm dưới 18đ");
+            System.out.println("11. Hiển thị ra danh sách học sinh đạt chất lượng giỏi (đtb > 8)");
             System.out.println("12. Thoát");
 
             System.out.print("Chọn: ");

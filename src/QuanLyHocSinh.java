@@ -104,7 +104,7 @@ public class QuanLyHocSinh {
                     maxhs = hs;
                 }
             }
-            System.out.println("Nhân viên có tổng lương cao nhất");
+            System.out.println("Học sinh có điểm trung bình cao nhất");
             maxhs.displayInfo();
         }
         // 6. tìm học sinh có điểm trung bình thấp nhất
@@ -121,7 +121,7 @@ public class QuanLyHocSinh {
                     minhs = hs;
                 }
             }
-            System.out.println("Nhân viên có tổng lương cao nhất");
+            System.out.println("Học sinh có điểm trung bình thấp nhất");
             minhs.displayInfo();
         }
         // 7. sắp xếp học sinh theo tên
@@ -138,7 +138,7 @@ public class QuanLyHocSinh {
                 return;
             }
             // tìm học sinh cần cập nhật theo id
-            System.out.println("nhập id nhân viên muốn cập nhật");
+            System.out.println("nhập id học sinh muốn cập nhật");
             String id = sc.nextLine();
             hocSinh hs = timHocSinhTheoId(id);
             // kiểm tra xem có tìm thấy id hay không
@@ -187,7 +187,7 @@ public class QuanLyHocSinh {
                 }
             }
             if (!found) {
-                System.out.println("Không có học sinh nào > 24 điểm");
+                System.out.println("Không có học sinh nào có tổng điểm 3 môn > 24 điểm");
             }
         }
         // 10. hiển thị ra học sinh có tổng điểm dưới 18đ
@@ -205,7 +205,7 @@ public class QuanLyHocSinh {
                 }
             }
             if (!found) {
-                System.out.println("Không có học sinh nào < 18 điểm");
+                System.out.println("Không có học sinh nào có tổng điểm 3 môn nào < 18 điểm");
             }
         }
         // 11. hiển thị ra danh sách học sinh đạt chất lượng giỏi (đtb > 8)
